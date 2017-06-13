@@ -1,6 +1,32 @@
 * {
 	box-sizing: border-box;
+	text-decoration: none;
+	color: #896A67;
 }
+
 body {
-	background-color: grey;
+	background-color: #DDC8C4;
+}
+
+.top-nav {
+	background: #EFF9F0;
+}
+
+.navbar {
+	display: flex;
+	font-size: 30px;
+	padding: 5px 20px;
+	/*justify-content: space-between;*/
+}
+
+.nav-toggle {
+	margin-left: auto;
+	cursor:pointer;
+}
+.nav-list {
+	list-style: none;
+}
+
+.nav-list-collapsed {
+	display: none;
 }
